@@ -2,7 +2,7 @@ header{}
 
 .navbar-default {
     background-color: #FFFFFF !important;
-    border-color: #FFFFFF !important;
+    border-bottom: 3px solid #000 !important;
     padding-left: 10px;
     padding-right: 25px;
     padding-bottom: 10px;
@@ -52,7 +52,7 @@ header{}
 }
 
 .title {
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
     color: #fff;
     z-index: 99;
@@ -82,8 +82,7 @@ header{}
     text-align: justify;
     color: #000;
     font-family: 'Roboto Condensed', sans-serif;
-    line-height: 50px;
-    margin-top: 20px;
+    line-height: 30px;
 }
 
 li {
@@ -108,7 +107,7 @@ li {
 
 .one {
     width: 100%;
-    background-image:url('../img/foto.png'); 
+    background-image:url('../img/c.png'); 
     background-size:cover; 
     height:100%;
     z-index: 1;
