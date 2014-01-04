@@ -153,9 +153,11 @@ li {
 .datos {
     color: #000 !important;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
 }
-
+.datos .fa{
+    font-size: larger;
+}
 a:focus {
     outline: none !important;
 }
