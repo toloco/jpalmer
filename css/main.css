@@ -105,9 +105,9 @@ li {
     width: 100%;
 }
 
-.one {
+.page.one {
     width: 100%;
-    background-image:url('../img/c.png'); 
+    background-image:url('../img/d.png'); 
     background-size:cover; 
     height:100%;
     z-index: 1;
@@ -115,14 +115,14 @@ li {
     padding-bottom: 250px;
 }
 
-.two {
+.page.two {
     width: 100%;
     z-index: 1;
     padding-bottom: 30px;
     
 }
 
-.thre {
+.page.thre {
     width: 100%;
     z-index: 1;
     padding-bottom: 30px;
