@@ -65,8 +65,8 @@ header{}
     text-align: justify;
     color: #000;
     font-family: 'Roboto Condensed', sans-serif;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .texto {
@@ -104,7 +104,9 @@ li {
 .map {
     width: 100%;
 }
-
+.page {
+     position: relative
+}
 .page.one {
     width: 100%;
     background-image:url('../img/d.png'); 
@@ -248,4 +250,20 @@ span.rollover:hover {
 
 
 
+
+
+
+.Center-Container {
+  position: relative;
+}
+
+.Absolute-Center {
+  width: 95%;
+  height: 95%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  overflow: none;
+}
 

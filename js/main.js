@@ -51,7 +51,7 @@ function postEmail () {
 
 
 function stretch_portal_content() {
-    $( '.page' ).height( $(window).height() - 150 );
+    $( '.page' ).css( "min-height" , $(window).height() - 150 );
 }
 
 function colorbox (selector) {
