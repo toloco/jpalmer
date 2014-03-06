@@ -67,12 +67,13 @@ var colorbox = {
     open : function(em){
         $("#body").hide();
         var st = '<div id="colorbox" style="z-index:99; position:absolute; top:30px; bottom:30px; left:30px; right:30px; border:2px solid #444; padding:30px; text-align:center; v-align:center;">'
-        st     +='   <a onclick="colorbox.close();" style="color:black; position:absolute; top:0; right:3px;"><i class="fa fa-3x fa-times-circle"></i></a>'
+        st     +='   <a onclick="colorbox.close();" href="#" style="color:black; position:absolute; top:0; right:3px;"><i class="fa fa-3x fa-times-circle"></i></a>'
         st     +='   <img src="'+$(em).attr('href')+'" style="height:100%;">'
         st     +='</div>';
         $("body").append(st);
     },
-    close : function(){
+    close : function(e){
+        
         $("#body").show();
         $.scrollTo( '#portfolio' );
         $("#colorbox").hide('slow');
