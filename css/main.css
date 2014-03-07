@@ -246,7 +246,10 @@ span.rollover:hover {
     border: 3px solid red!important;
 }
 
-
+.btn-xs{
+    padding: 3px !important;
+    margin-top:38px !important;
+}
 
 
 
