@@ -186,7 +186,7 @@ span.rollover {
 }
 
 span.rollover:hover {
-    opacity: 1;
+    opacity: 0.6;
     -o-transition-duration: 1s;
     -moz-transition-duration: 1s;
     -webkit-transition: -webkit-transform 1s;
