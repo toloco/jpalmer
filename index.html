@@ -252,27 +252,30 @@
                         <span class="mr datos"><i class="fa fa-phone fa-2x mr mti"></i><a href="tel:971474451">971 474 451</a></span>
                         <span class="datos"><i class="fa fa-envelope-o fa-2x mr mti"></i><a href="mailto:jpalmer@jpalmer.es">jpalmer@jpalmer.es</a></span>
                         
-                        <form class="mt" id="contact_form">
+                        <form id="form1" name="form1" class="mt" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://jpreforma.wufoo.com/forms/z1j5df7l1hfwiid/#public">
+                            <input type="hidden" id="idstamp" name="idstamp" value="RngWISz1gCkghwwTrdqyyMgHuzN82ggTYfPSlrNdxAM=" />
+
+                            
                             <div class="form-group ml" id="form_name_p">
-                                <label for="form_name" class="datos">Nombre</label>
-                                <input type="text" class="form-control" id="form_name" >
+                                <label for="Field6" class="datos">Nombre</label>
+                                <input id="Field6" name="Field6" type="text" class="form-control" >
+                            </div>
+                            <div class="form-group ml" id="form_name_p">
+                                <label for="Field3" class="datos">Tel&eacute;fono</label>
+                                <input id="Field3" name="Field3" type="text" class="form-control" >
                             </div>
                             <div class="form-group ml" id="form_email_p">
-                                <label for="form_email" class="datos">Email</label>
-                                <input type="email" class="form-control" id="form_email" >
+                                <label for="Field4" class="datos">Email</label>
+                                <input type="email" class="form-control" id="Field4" name="Field4">
                             </div>
 
                             <div id="form_text_p">
-                                <label for="form_text" class="datos">Mensaje</label>
-                                <textarea id="form_text" class="form-control" rows="5" placeholder="Que necesita..."></textarea>
+                                <label for="Field5" class="datos">Mensaje</label>
+                                <textarea name="Field5" id="Field5" class="form-control" rows="5" placeholder="Que necesita..."></textarea>
                             </div>
 
-                            <button type="button" onclick="postEmail();" class="btn btn-default mt datos">Enviar</button>
+                            <button type="submit" class="btn btn-default mt datos">Enviar</button>
                         </form>
-
-                        <div id="form_success" style="display:none; margin-top:20px;" class="datos">
-                            Mensaje Enviado!
-                        </div>
                     </div>
                 </div>
             </div>
@@ -307,7 +310,7 @@
             $('#nav').onePageNav({
                 currentClass: 'current',
                 changeHash: false,
-                scrollSpeed: 900,
+                scrollSpeed: 700,
                 scrollOffset: 115,
                 scrollThreshold: 0.5,
                 filter: ':not(.external)',
